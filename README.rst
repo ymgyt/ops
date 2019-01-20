@@ -4,6 +4,16 @@ ops
 
 ops is utility tool kit for daily operations.
 
+Install
+=======
+
+.. code-block:: bash
+
+   $ curl -fsSL -o ops https://github.com/ymgyt/ops/releases/download/v0.0.2/ops-linux-amd64-v0.0.2
+   $ chmod +x ops
+   $ ./ops version
+   v0.0.2
+
 
 Usage
 =====
