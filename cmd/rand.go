@@ -31,6 +31,7 @@ func NewRandCommand() *cli.Command {
 
 	err := cmd.Options().
 		Add(&cli.BoolOpt{Var: &rd.showHelp, Long: "help", Short: "h", Description: "print this."}).
+		Add(&cli.BoolOpt{Var: &rd.noTrailingNewLine, Long: "without-trailing-newline", Description: "output without adding trailing newline code"}).
 		Add(&cli.IntOpt{
 			Var: &rd.length, Long: "len", Aliases: []string{"max", "length"}, Default: defaultRandomLength,
 			Description: "random strings length."}).
@@ -46,9 +47,10 @@ func NewRandCommand() *cli.Command {
 }
 
 type RandomGenerator struct {
-	showHelp     bool
-	length       int
-	specialChars string
+	showHelp          bool
+	length            int
+	specialChars      string
+	noTrailingNewLine bool
 }
 
 func (rd *RandomGenerator) Run(ctx context.Context, cmd *cli.Command, args []string) {
@@ -62,7 +64,11 @@ func (rd *RandomGenerator) Run(ctx context.Context, cmd *cli.Command, args []str
 
 	generated := rd.generate(pool, rd.length, time.Now().UnixNano())
 
-	fmt.Println(generated)
+	if rd.noTrailingNewLine {
+		fmt.Print(generated)
+	} else {
+		fmt.Println(generated)
+	}
 }
 
 func (rd *RandomGenerator) generate(pool string, length int, seed int64) string {
