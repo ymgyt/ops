@@ -12,5 +12,6 @@ func New() *cli.Command {
 
 	return root.
 		AddCommand(NewDiskUsageCommand()).
-		AddCommand(NewVersionCommand())
+		AddCommand(NewVersionCommand()).
+		AddCommand(NewRandCommand())
 }

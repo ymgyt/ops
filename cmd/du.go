@@ -56,7 +56,7 @@ type DiskUsage struct {
 func (du *DiskUsage) Run(ctx context.Context, cmd *cli.Command, args []string) {
 
 	if du.showHelp {
-		cli.HelpFunc()(os.Stderr, cmd)
+		cli.HelpFunc(os.Stderr, cmd)
 		return
 	}
 

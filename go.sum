@@ -262,6 +262,8 @@ github.com/jmoiron/sqlx v0.0.0-20180614180643-0dae4fefe7c0/go.mod h1:IiEW3SEiiEr
 github.com/joho/godotenv v1.2.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
 github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
 github.com/juju/ansiterm v0.0.0-20180109212912-720a0952cc2a/go.mod h1:UJSiEoRfvx3hP73CvoARgeLjaIOjybY9vj8PUPPFGeU=
+github.com/juju/errors v0.0.0-20190207033735-e65537c515d7 h1:dMIPRDg6gi7CUp0Kj2+HxqJ5kTr1iAdzsXYIrLCNSmU=
+github.com/juju/errors v0.0.0-20190207033735-e65537c515d7/go.mod h1:W54LbzXuIE0boCoNJfwqpmkKJ1O4TCTZMetAt6jGk7Q=
 github.com/karrick/godirwalk v1.7.5/go.mod h1:2c9FRhkDxdIbgkOnCEvnSWs71Bhugbl46shStcFDJ34=
 github.com/karrick/godirwalk v1.7.7/go.mod h1:2c9FRhkDxdIbgkOnCEvnSWs71Bhugbl46shStcFDJ34=
 github.com/karrick/godirwalk v1.7.8/go.mod h1:2c9FRhkDxdIbgkOnCEvnSWs71Bhugbl46shStcFDJ34=
@@ -411,6 +413,8 @@ github.com/ymgyt/cli v0.0.3-0.20190119125139-142e0651633e h1:YvYgwQaSCF52HSImY9B
 github.com/ymgyt/cli v0.0.3-0.20190119125139-142e0651633e/go.mod h1:YZOVCtlvr6A2URAK/5HGiuWoVw+OxAzfp+kFcsD5J7A=
 github.com/ymgyt/cli v0.0.3-0.20190119133200-acdc3c4f6493 h1:M4dMV0wXfo4d9/qUDF6Krm7oGAZnndMp/tZmAweIGHs=
 github.com/ymgyt/cli v0.0.3-0.20190119133200-acdc3c4f6493/go.mod h1:YZOVCtlvr6A2URAK/5HGiuWoVw+OxAzfp+kFcsD5J7A=
+github.com/ymgyt/cli v0.0.11 h1:PLbBdWSODoxMT99DJWNAVAwKNuOSmFbrC/1PZhCrVLM=
+github.com/ymgyt/cli v0.0.11/go.mod h1:UEt4vxcj14ExR/6CnBoJ4LsPlY+uxs5gYVTRvQElLaA=
 golang.org/x/arch v0.0.0-20181203225421-5a4828bb7045 h1:Pn8fQdvx+z1avAi7fdM2kRYWQNxGlavNDSyzrQg2SsU=
 golang.org/x/arch v0.0.0-20181203225421-5a4828bb7045/go.mod h1:cYlCBUl1MsqxdiKgmc4uh7TxZfWSFLOGSRR090WDxt8=
 golang.org/x/crypto v0.0.0-20180505025534-4ec37c66abab/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=

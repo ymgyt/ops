@@ -10,7 +10,7 @@ import (
 	// mg contains helpful utility functions, like Deps
 )
 
-const version = "v0.0.2"
+const version = "v0.0.3"
 
 type Build mg.Namespace
 
