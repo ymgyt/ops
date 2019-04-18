@@ -37,3 +37,29 @@ du
          --order        : output disk usaage order.
      -r, --relative     : print relative file path from root.
      -v, --verbose      : verbose
+
+
+rand
+----
+
+.. code-block:: bash
+
+   rand generate random characters.
+
+   USAGE
+    ops rand [OPTIONS]
+
+   default character pool: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
+
+
+   Options
+     -h, --help         : print this.
+         --len          : random strings length.
+         --special-chars: characters used in addition to the standard string pool for random string generation
+
+
+
+.. code-block:: bash
+
+   ops rand --len=50 --special-chars='?!_-*.,&%'
+   XyACZMsL?tPJ_Vd8Yg93!EGoFpqOuRDHWV*jFP*r7u2OqIP4C_
