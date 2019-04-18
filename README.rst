@@ -9,10 +9,10 @@ Install
 
 .. code-block:: bash
 
-   $ curl -fsSL -o ops https://github.com/ymgyt/ops/releases/download/v0.0.2/ops-linux-amd64-v0.0.2
+   $ curl -fsSL -o ops https://github.com/ymgyt/ops/releases/download/v0.0.3/ops-linux-amd64-v0.0.3
    $ chmod +x ops
    $ ./ops version
-   v0.0.2
+   v0.0.3
 
 
 Usage
